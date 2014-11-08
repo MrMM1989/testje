@@ -4,7 +4,7 @@ class HomeController extends BaseController {
 
 	/*
 	|--------------------------------------------------------------------------
-	| Home Controller
+	| Home Controller: controller for homepage & static pages
 	|--------------------------------------------------------------------------
 	*/
  
