@@ -3,7 +3,6 @@
 * Main CSS style
 ***********************************************
 */
-
 body {
 	background-color: #000066;
 	font-family: Arial, Helvetica, sans-serif; 
@@ -12,14 +11,52 @@ body {
 h1 {
 	font-size: 3em;
 }
+a,p {
+	font-size: 1.125em;
+}
 h1,h2,h3 {
 	font-weight: bold;
 }
-html, body, #sitebody {
+html,body {
 	height: 100%;
 	min-width: 900px;
 }
 #sitebody {
-	background-color: #FFFFFF;	
+	background-color: #FFFFFF;
+	min-height: 500px;	
 	padding: 5%;
+}
+#sitefooter{
+	background-color: #000000;
+	color: #FFFFFF;
+	min-height: 100px;
+	padding: 2% 5%;
+}
+
+/*
+***********************************************
+* Navigation bar CSS style
+***********************************************
+*/
+
+ul#sitenav {
+	list-style: none;
+	width: 100%;
+}
+ul#sitenav li {
+	background-color: #000066;
+	float: left;
+	margin: 5% 0;
+	text-align: center;
+	width: 50%;
+}
+ul#sitenav a {
+	color: #FFFFFF;
+	display: block;
+	font-size: 1.5em;
+	padding: 2% 0;
+	text-decoration: none;	
+}
+ul#sitenav a:hover{
+	background-color: #005566;
 }

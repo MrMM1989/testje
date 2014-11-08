@@ -1,5 +1,6 @@
 @extends('layouts.default')
 
 @section('content')
-	<h1>Test: Home</h1>		
+	<p>Dit is de tekst van de homepage!</p>	
+	
 @stop

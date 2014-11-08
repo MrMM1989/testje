@@ -14,9 +14,10 @@ class HomeController extends BaseController {
 
 	public function index()
 	{
-		$title = 'Home|Test';
+		$title		= 'Home|Test';
+		$pageheader	= 'Test: Home';
 		
-		return View::make('home/index')->with('title', $title);
+		return View::make('home/index')->with(array('title' => $title, 'pageheader' => $pageheader));
 	}
 
 }
