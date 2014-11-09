@@ -14,8 +14,8 @@ class HomeController extends BaseController {
 
 	public function index()
 	{
-		$title		= 'Home|Test';
-		$pageheader	= 'Test: Home';
+		$title		= 'Home|Attractiepark';
+		$pageheader	= 'Attractiepark: Home';
 		
 		return View::make('home/index')->with(array('title' => $title, 'pageheader' => $pageheader));
 	}

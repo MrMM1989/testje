@@ -11,6 +11,18 @@ body {
 h1 {
 	font-size: 3em;
 }
+h2 {
+	font-size: 2.25em;
+	margin-bottom: 5%;
+}
+h3 {
+	font-size: 1.75em;
+	margin-bottom: 3%;
+}
+p {
+	line-height: 150%;
+	margin-bottom: 2%;
+}
 a,p {
 	font-size: 1.125em;
 }
@@ -30,7 +42,7 @@ html,body {
 	background-color: #000000;
 	color: #FFFFFF;
 	min-height: 100px;
-	padding: 2% 5%;
+	padding: 2% 5% 0 5%;
 }
 
 /*
@@ -48,15 +60,70 @@ ul#sitenav li {
 	float: left;
 	margin: 5% 0;
 	text-align: center;
-	width: 50%;
+	width: 20%;
 }
 ul#sitenav a {
 	color: #FFFFFF;
 	display: block;
 	font-size: 1.5em;
-	padding: 2% 0;
+	padding: 5% 0;
 	text-decoration: none;	
 }
 ul#sitenav a:hover{
 	background-color: #005566;
 }
+
+/*
+***********************************************
+* Usermenu CSS style
+***********************************************
+*/
+
+ul#usermenu {
+	list-style: none;
+	margin-bottom: 3%;
+	text-align: right;
+}
+ul#usermenu li {
+	display: inline;
+}
+ul#usermenu a {
+	color: #000066;
+	font-size: 1.1em;
+}
+
+/*
+***********************************************
+* Footermenu CSS style
+***********************************************
+*/
+
+ul#footermenu {
+	list-style: none;
+	width: 100%;
+}
+ul#footermenu li {
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+ul#footermenu a {
+	color: #FFFFFF;
+	display: block;
+	padding: 10% 0;
+	text-decoration: none;
+}
+
+/*
+***********************************************
+* Margin classes CSS style
+***********************************************
+*/
+
+.topmargin1 {
+	margin-top: 1em;
+}
+.topmargin2 {
+	margin-top: 2em;
+}
+
