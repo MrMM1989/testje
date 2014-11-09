@@ -8,8 +8,8 @@ class HomeController extends BaseController {
 	|--------------------------------------------------------------------------
 	*/
  
-	/*
-	| index method -> Homepage of site
+	/**
+	* index method -> Homepage of site
 	*/
 
 	public function index()

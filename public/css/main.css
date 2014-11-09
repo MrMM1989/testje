@@ -23,7 +23,7 @@ p {
 	line-height: 150%;
 	margin-bottom: 2%;
 }
-a,p {
+a,p, input, label {
 	font-size: 1.125em;
 }
 h1,h2,h3 {
@@ -112,6 +112,33 @@ ul#footermenu a {
 	display: block;
 	padding: 10% 0;
 	text-decoration: none;
+}
+
+/*
+***********************************************
+* Form CSS style
+***********************************************
+*/
+
+ul.form {
+	list-style: none;
+}
+ul.form li {
+	margin: 5% 0;
+}
+ul.form label {
+	display: inline-block;
+	min-width: 25%;
+}
+ul.form input[type=submit] {
+	background-color: #00AA00;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 3px 3px 4px #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-left: 25.5%;
+	padding: 1% 2%;
 }
 
 /*

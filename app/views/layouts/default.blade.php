@@ -22,13 +22,16 @@
 
 		<ul id="usermenu">
 			<li><a href="/">Inloggen</a> | </li>
-			<li><a href="/">Registreren</a></li>
+			<li><a href="{{ URL::route('users.create') }}">Registreren</a></li>
 		</ul>
+
 		<h2>{{ $pageheader }}</h2>	
+
     	@yield('content')
 		
 	</div>
 	<!-- end of div sitebody -->
+
 	<!-- start of div sitefooter -->
 	<div id="sitefooter">
 		<ul id="footermenu">
@@ -38,7 +41,6 @@
 			<li><a href="/">Helpdesk</a></li>
 		</ul>
 	</div>
-	<!-- end of div sitefooter>
-  </body>
-	
+	<!-- end of div sitefooter -->
+  </body>	
 </html>
