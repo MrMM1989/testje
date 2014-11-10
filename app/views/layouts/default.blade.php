@@ -21,7 +21,7 @@
 		</ul>
 
 		<ul id="usermenu">
-			<li><a href="/">Inloggen</a> | </li>
+			<li><a href="{{ URL::route('users.getLogin') }}">Inloggen</a> | </li>
 			<li><a href="{{ URL::route('users.create') }}">Registreren</a></li>
 		</ul>
 

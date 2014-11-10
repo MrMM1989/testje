@@ -92,7 +92,10 @@ class UsersController extends \BaseController {
 	 */
 	public function getLogin()
 	{
-		//
+		$title		= 'Inloggen|Attractiepark';
+		$pageheader	= 'Attractiepark: Inloggen';
+		
+		return View::make('user/login-form')->with(array('title' => $title, 'pageheader' => $pageheader));
 	}
 
 	
